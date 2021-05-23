@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="colaciones">Colaciones:</string>
+    <string name="no_coma_comida_chatarra_especialmente_la_procesada">No coma comida chatarra, especialmente la procesada.</string>
+    <string name="aproximadamente_8_vasos_de_agua">(aproximadamente 8 vasos de agua)</string>
+    <string name="tome_entre_1_5_y_2_litros_de_agua">Tome entre 1.5 y 2 litros de agua.</string>
+    <string name="alimentaci_n">Alimentación</string>
+    <string name="ma_ana_tarde_y_noche">(mañana, tarde y noche)</string>
+    <string name="_1_entre_cada_comida">(1 entre cada comida)</string>
+    <string name="tome_2_colaciones">Tome 2 colaciones.</string>
+    <string name="para_obtener_los_nutrientes_necesarios_para_el_organismo_hay_que_incluir_en_la_comida_de_todos_los_grupos_alimenticios">Para obtener los nutrientes necesarios para el organismo hay que incluir en la comida de todos los grupos alimenticios.</string>
+    <string name="haga_3_comidas_basadas_en_el_plato_del_buen_comer">Haga 3 comidas basadas en el plato del buen comer.</string>
+    <string name="home">Home</string>
+    <string name="una_porcion_de_fruta_o_cereal_o_semillas_o_leguminosas_o_yogurt_o_un_sandwitch">Una porcion de fruta o cereal o semillas o leguminosas o yogurt o un sandwitch.</string>
+    <string name="tips">Tips</string>
+    <string name="todo">TODO</string>
+</resources>

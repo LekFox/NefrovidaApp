@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TipsAlimenticios">
+
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alimentación"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="121dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="55dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            app:srcCompat="@drawable/agua" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="(aproximadamente 8 vasos de agua)"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            android:text="Tome entre 1.5 y 2 litros de agua."
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:text="Para obtener los nutrientes necesarios para el organismo hay que incluir en la comida de todos los grupos alimenticios."
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/imageView17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="202dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginBottom="208dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView38"
+            app:srcCompat="@drawable/allfood" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="10dp"
+            android:text="No coma comida chatarra, especialmente la procesada."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="456dp"
+            android:layout_marginBottom="457dp"
+            android:text="Haga 3 comidas basdas en el plato del buen comer."
+            app:layout_constraintBottom_toTopOf="@+id/textView17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="15dp"
+            android:text="(mañana, tarde y noche)"
+            app:layout_constraintEnd_toEndOf="@+id/imageView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="63dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20"
+            app:srcCompat="@drawable/pb" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="17dp"
+            android:text="Una porcion de fruta o cereales o semillas o leguminosas o yogurt o un sandwitch."
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/imageView18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="1dp"
+            android:text="Tome 2 colaciones."
+            app:layout_constraintBottom_toTopOf="@+id/textView15"
+            app:layout_constraintStart_toStartOf="@+id/textView15" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="111dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="62dp"
+            android:layout_marginBottom="67dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_home3"
+            app:layout_constraintEnd_toEndOf="@+id/textView17"
+            app:layout_constraintStart_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:srcCompat="@drawable/cereal" />
+
+        <Button
+            android:id="@+id/btn_home3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="74dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="1dp"
+            android:text="Home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView18"
+            app:layout_constraintStart_toStartOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="231dp"
+            android:text="(1 entre cada comida)"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView17"
+            app:layout_constraintStart_toStartOf="@+id/textView17" />
+
+        <Button
+            android:id="@+id/btn_habitos3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="82dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginBottom="1dp"
+            android:text="Tips"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView21"
+            app:layout_constraintStart_toStartOf="@+id/imageView18" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="182dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="14dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView12"
+            app:srcCompat="@drawable/yf" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
