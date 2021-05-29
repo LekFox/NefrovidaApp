@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         val button1 = findViewById<Button>(R.id.btn_encuesta)
         val button2 = findViewById<Button>(R.id.btn_tips)
+        val button3 = findViewById<Button>(R.id.btn_rutina)
 
         button1.setOnClickListener{
 
@@ -28,6 +29,12 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener{
 
             val intent = Intent(this@MainActivity, Tips:: class.java)
+            startActivity(intent)
+            finish()
+        }
+        button3.setOnClickListener{
+
+            val intent = Intent(this@MainActivity, Rutina:: class.java)
             startActivity(intent)
             finish()
         }

@@ -85,6 +85,18 @@
 
             </LinearLayout>
 
+            <Button
+                android:id="@+id/btn_rutina"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/design_default_color_background"
+                android:fontFamily="@font/roboto_bold"
+                android:text="RUTINA"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
 
         </LinearLayout>
 
