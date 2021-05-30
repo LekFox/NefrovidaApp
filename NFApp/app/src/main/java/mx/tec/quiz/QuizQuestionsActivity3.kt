@@ -1,19 +1,20 @@
 package mx.tec.quiz
 
+
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 
-class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
+class QuizQuestionsActivity3 : AppCompatActivity(), View.OnClickListener {
 
     private var mCurrentPosition: Int = 1
     private var mQuestionList: ArrayList<Question>? = null
@@ -21,9 +22,9 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_quiz_questions6p)
+        setContentView(R.layout.activity_quiz_questions)
 
-        mQuestionList = Constants.getQuestions()
+        mQuestionList = Constants.getQuestions3()
         setQuestion()
 
         val option_one = findViewById<TextView>(R.id.tv_option_one)
@@ -75,16 +76,13 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     var incorrect = 0
     override fun onClick(v: View?){
-
         val sb = StringBuilder()
-
         if (v != null) {
             val option_one = findViewById<TextView>(R.id.tv_option_one)
             val option_two = findViewById<TextView>(R.id.tv_option_two)
             val option_three = findViewById<TextView>(R.id.tv_option_three)
             val option_four = findViewById<TextView>(R.id.tv_option_four)
             val button_submit = findViewById<Button>(R.id.btn_submit)
-
             when(v.id){
                 R.id.tv_option_one -> {
                     selectedOptionView(option_one, 1)
@@ -157,8 +155,8 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
             option.setTextColor(Color.parseColor("#7A8089"))
             option.typeface = Typeface.DEFAULT
             option.background = ContextCompat.getDrawable(
-                    this,
-                    R.drawable.default_option_border_bg
+                this,
+                R.drawable.default_option_border_bg
             )
         }
     }
@@ -172,7 +170,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         tv.setTextColor(Color.parseColor("#363A43"))
         tv.setTypeface(tv.typeface,Typeface.BOLD)
         tv.background = ContextCompat.getDrawable(this,
-                R.drawable.selected_option_border_bg)
+            R.drawable.selected_option_border_bg)
 
     }
 
@@ -197,5 +195,5 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
-
 }
+

@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:indeterminate="false"
-                android:max="10"
+                android:max="5"
                 android:minHeight="50dp"
                 android:progress="0"
                 style="@style/Widget.AppCompat.ProgressBar.Horizontal">
@@ -59,7 +59,7 @@
                 android:padding="15dp"
                 android:textColorHint="#7A8089"
                 android:textSize="14sp"
-                android:text="0/10">
+                android:text="0/5">
             </TextView>
 
 
@@ -105,7 +105,8 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            android:text="1.5 Litros"/>
+            android:text="1.5 Litros"
+            android:visibility="gone"/>
 
 
         <TextView
@@ -119,7 +120,8 @@
             android:padding="15dp"
             android:textColor="#7A8089"
             android:textSize="18sp"
-            android:text="2 o Más Litros"/>
+            android:text="2 o Más Litros"
+            android:visibility="gone"/>
 
 
         <Button
