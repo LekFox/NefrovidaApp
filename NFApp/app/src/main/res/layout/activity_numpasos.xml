@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewRut"
+        android:layout_width="261dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/nefrovida_large" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Mis Pasos"
+                android:textColor="#f45b69"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/circularprogress"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:cpb_background_progressbar_color="#f2f2f2"
+        app:cpb_background_progressbar_width="20dp"
+        app:cpb_progress_direction="to_right"
+        app:cpb_progress_max="2500"
+        app:cpb_progressbar_color="#f44336"
+        app:cpb_progressbar_width="15dp"
+        app:cpb_round_border="true" />
+
+    <TextView
+        android:id="@+id/tv_stepsTaken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_totalMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/2500"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_home01Rut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Atrás" />
+
+    <GridLayout
+        android:layout_width="191dp"
+        android:layout_height="194dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="79dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="55dp"
+            android:rotationY="181"
+            app:srcCompat="@drawable/footprint" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="109dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="55dp"
+            app:srcCompat="@drawable/footprint" />
+    </GridLayout>
+
+
+
+
+</LinearLayout>
