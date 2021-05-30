@@ -1,4 +1,0 @@
-/Users/carlos/NefrovidaApp/NefrovidaApp/app/src/main/java/mx/tec/nefrovidaapp/MainActivity.kt
-/Users/carlos/NefrovidaApp/NefrovidaApp/app/src/main/java/mx/tec/nefrovidaapp/Quiz1Questions.kt
-/Users/carlos/NefrovidaApp/NefrovidaApp/app/src/main/java/mx/tec/nefrovidaapp/Question.kt
-/Users/carlos/NefrovidaApp/NefrovidaApp/app/src/main/java/mx/tec/nefrovidaapp/Constants.kt
