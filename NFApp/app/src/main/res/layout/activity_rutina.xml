@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
+    android:orientation="vertical"
 
     tools:context=".MainActivity">
 
@@ -42,32 +41,25 @@
                 android:text="Rutina"
                 android:textColor="#363A43"
                 android:textSize="32sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
             <Button
                 android:id="@+id/btn_habRut"
-                android:layout_width="match_parent"
+                android:layout_width="337dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@color/design_default_color_background"
+                android:background="#f45b69"
                 android:fontFamily="@font/roboto_bold"
                 android:text="Mis Pasos"
-                android:textSize="18sp"/>
-
-
-
-
-
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
 
 
         </LinearLayout>
 
 
-
     </androidx.cardview.widget.CardView>
-
-
 
 
     <Button

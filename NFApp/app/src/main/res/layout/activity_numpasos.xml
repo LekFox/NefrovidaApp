@@ -40,9 +40,9 @@
                 android:fontFamily="@font/roboto_bold"
                 android:gravity="center"
                 android:text="Mis Pasos"
-                android:textColor="#363A43"
+                android:textColor="#f45b69"
                 android:textSize="32sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
 
@@ -95,6 +95,30 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="Atrás" />
+
+    <GridLayout
+        android:layout_width="191dp"
+        android:layout_height="194dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="79dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="55dp"
+            android:rotationY="181"
+            app:srcCompat="@drawable/footprint" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="109dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="55dp"
+            app:srcCompat="@drawable/footprint" />
+    </GridLayout>
+
+
 
 
 </LinearLayout>
