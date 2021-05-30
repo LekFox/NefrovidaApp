@@ -20,7 +20,7 @@ object Constants {
         val question2 = Question(
             2,
             "¿2?",
-            "1 Litro",
+            "1 respuesta",
             "1.5 Litro",
             "2 Litro",
             "2.5 Litrosssss",
@@ -32,7 +32,7 @@ object Constants {
         val question3 = Question(
             3,
             "¿3?",
-            "1 Litro",
+            "1 respuesta",
             "1.5 Litro",
             "2 Litro",
             "2.5 Litro",
@@ -45,7 +45,7 @@ object Constants {
             4,
             "¿4?",
             "1 Litro",
-            "1.5 Litro",
+            "1.5 respuesta",
             "2 Litro",
             "2.5 Litro",
             4
@@ -58,7 +58,7 @@ object Constants {
             "¿5?",
             "1 Litro",
             "1.5 Litro",
-            "2 Litro",
+            "2 respuesta",
             "2.5 Litro",
             1
         )
@@ -70,7 +70,7 @@ object Constants {
             "¿6?",
             "1 Litro",
             "1.5 Litro",
-            "2 Litro",
+            "2 respuesta",
             "2.5 Litro",
             2
         )
@@ -80,7 +80,7 @@ object Constants {
         val question7 = Question(
             7,
             "¿7?",
-            "1 Litro",
+            "1 respuesta",
             "1.5 Litro",
             "2 Litro",
             "2.5 Litro",
@@ -92,10 +92,10 @@ object Constants {
         val question8 = Question(
             8,
             "¿8?",
-            "1 Litro",
-            "1.5 Litro",
+            "1 respuesta",
+            "1.5 respuesta",
             "2 Litro",
-            "2.5 Litro",
+            "2.5 respuesta",
             3
         )
         questionList.add(question8)
@@ -104,10 +104,10 @@ object Constants {
         val question9 = Question(
             9,
             "¿9?",
-            "1 Litro",
-            "1.5 Litro",
-            "2 Litro",
-            "2.5 Litro",
+            "Litro",
+            "Litrdeo",
+            "xd",
+            "xs",
             4
         )
         questionList.add(question9)
@@ -115,10 +115,10 @@ object Constants {
         val question10 = Question(
             10,
             "¿10?",
-            "1 Litro",
-            "1.5 Litro",
-            "2 Litro",
-            "2.5 Litro",
+            "respuesta",
+            "1.5 respuesta",
+            "2 respuesta",
+            "2.5 respuesta",
             1
         )
         questionList.add(question10)

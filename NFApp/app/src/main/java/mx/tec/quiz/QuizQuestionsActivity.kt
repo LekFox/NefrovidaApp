@@ -97,6 +97,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
                 R.id.btn_submit -> {
                     if(mSelectedOptionPosition == 0) {
+                        mCurrentPosition++
                         when {
                             mCurrentPosition <= mQuestionList!!.size -> {
                                 setQuestion()
@@ -104,9 +105,10 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                             else -> {
                                 Toast.makeText(
                                         this,
-                                        "You've successfuly completed the quiz.", Toast.LENGTH_SHORT
+                                        "You've successfully completed the quiz.", Toast.LENGTH_SHORT
                                 ).show()
                                 val intent = Intent(this, MainActivity::class.java)
+
                                 startActivity(intent)
 
                             }
@@ -120,7 +122,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                         if(mCurrentPosition == mQuestionList!!.size){
                             button_submit.text = "Finish"
                         } else{
-                            button_submit.text = "Next Question"
+                            button_submit.text = "Siguiente pregunta"
                         }
                         mSelectedOptionPosition=0
                     }
