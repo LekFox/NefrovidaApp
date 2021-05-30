@@ -19,6 +19,7 @@
         <activity android:name=".TipsHabitos" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".QuizQuestionsActivity" />
+        <activity android:name=".NumPasos"/>
         <activity android:name=".Rutina"/>
         <activity android:name=".MainActivity">
             <intent-filter>
