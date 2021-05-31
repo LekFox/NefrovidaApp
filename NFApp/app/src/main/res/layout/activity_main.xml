@@ -70,7 +70,7 @@
                     android:background="#59c3c3"
                     android:fontFamily="@font/roboto_bold"
                     android:text="ENCUESTAS"
-                    android:textColor="#F4EDED"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
 
                 <Button
@@ -84,24 +84,45 @@
                     android:fontFamily="@font/roboto_bold"
                     android:text="TIPS"
                     android:textAlignment="center"
-                    android:textColor="#F4EDED"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
 
             </LinearLayout>
 
-            <Button
-                android:id="@+id/btn_rutina"
-                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
-                android:layout_width="165dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="16dp"
-                android:background="#59c3c3"
-                android:fontFamily="@font/roboto_bold"
-                android:text="RUTINA"
-                android:textAlignment="center"
-                android:textColor="#F4EDED"
-                android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_rutina"
+                    style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                    android:layout_width="161dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#59c3c3"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="RUTINA"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btn_10"
+                    style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                    android:layout_width="165dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    android:background="#59c3c3"
+                    android:text="CLIMA"
+                    android:textColor="@color/black"
+                    tools:fontFamily="@font/roboto_bold"
+                    tools:textSize="18sp" />
+
+            </LinearLayout>
 
 
         </LinearLayout>
