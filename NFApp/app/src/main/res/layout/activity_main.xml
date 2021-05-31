@@ -115,12 +115,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="16dp"
-                    android:layout_weight="1"
                     android:background="#59c3c3"
-                    android:text="CLIMA"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="CALORÍAS"
+                    android:textAlignment="center"
                     android:textColor="@color/black"
-                    tools:fontFamily="@font/roboto_bold"
-                    tools:textSize="18sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
