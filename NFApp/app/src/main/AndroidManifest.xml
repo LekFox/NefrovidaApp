@@ -12,16 +12,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quiz">
-        <activity android:name=".TipsMentales"></activity>
+        <activity android:name=".QuizQuestionsActivity2"/>
+        <activity android:name=".QuizQuestionsActivity3"/>
+        <activity android:name=".QuizQuestionsActivity4"/>
+        <activity android:name=".TipsMentales" />
         <activity android:name=".TipsAlimenticios" />
         <activity android:name=".TipsEjercicio" />
         <activity android:name=".Tips" />
         <activity android:name=".TipsHabitos" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".QuizQuestionsActivity" />
+
         <activity android:name=".NumPasos"/>
         <activity android:name=".Rutina"/>
         <activity android:name=".Calorias"/>
+
+        
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
