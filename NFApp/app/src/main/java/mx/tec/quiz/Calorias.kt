@@ -50,6 +50,11 @@ class Calorias : AppCompatActivity() {
             if(checked){
                 builder.show()
 
+            }else{
+                builder.setTitle("No te preocupes tu sigue trabajando por tus metas!!")
+                builder.setMessage("Recuerda: Tomar 2 litros de agua al día ayuda a tener riñones sanos.")
+                builder.show()
+
             }
         }
 
@@ -66,6 +71,11 @@ class Calorias : AppCompatActivity() {
         if(view is CheckBox){
             val checked: Boolean = view.isChecked
             if(checked){
+                builder.show()
+
+            }else{
+                builder.setTitle("No te preocupes mañana será otro día!!")
+                builder.setMessage("Recuerda: Hacer ejercicio regularmente ayuda a disminuir enfermedades renales.")
                 builder.show()
 
             }
@@ -86,6 +96,11 @@ class Calorias : AppCompatActivity() {
             if(checked){
                 builder.show()
 
+            }else{
+                builder.setTitle("Intenta dormir más!!")
+                builder.setMessage("Recuerda: Dormir de 7 a 8 horas diarias es vital para llevar una vida sana.")
+                builder.show()
+
             }
         }
 
@@ -102,6 +117,11 @@ class Calorias : AppCompatActivity() {
         if(view is CheckBox){
             val checked: Boolean = view.isChecked
             if(checked){
+                builder.show()
+
+            }else{
+                builder.setTitle("Hay que mejorar la dieta!!")
+                builder.setMessage("Recuerda: Una dieta balanceada es esencial para mantener la salud de tus riñones.")
                 builder.show()
 
             }
