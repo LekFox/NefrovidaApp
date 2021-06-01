@@ -109,7 +109,7 @@
                     android:textSize="18sp" />
 
                 <Button
-                    android:id="@+id/btn_10"
+                    android:id="@+id/btn_cal"
                     style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                     android:layout_width="165dp"
                     android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
                     android:layout_marginTop="16dp"
                     android:background="#59c3c3"
                     android:fontFamily="@font/roboto_bold"
-                    android:text="CALORÍAS"
+                    android:text="ESENCIAL"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="18sp" />

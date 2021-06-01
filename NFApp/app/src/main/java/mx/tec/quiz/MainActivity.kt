@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val button1 = findViewById<Button>(R.id.btn_encuesta)
         val button2 = findViewById<Button>(R.id.btn_tips)
         val button3 = findViewById<Button>(R.id.btn_rutina)
+        val button4 = findViewById<Button>(R.id.btn_cal)
 
         button1.setOnClickListener{
 
@@ -38,5 +39,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        button4.setOnClickListener{
+
+            val intent = Intent(this@MainActivity, Calorias::class.java )
+            startActivity(intent)
+            finish()
+
+
+        }
     }
+
+
 }

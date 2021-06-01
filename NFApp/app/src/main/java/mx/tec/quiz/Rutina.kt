@@ -39,11 +39,4 @@ class Rutina : AppCompatActivity() {
 
 
 
-
-
-
-
-
-
-
 }

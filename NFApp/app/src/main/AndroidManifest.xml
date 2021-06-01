@@ -21,6 +21,7 @@
         <activity android:name=".QuizQuestionsActivity" />
         <activity android:name=".NumPasos"/>
         <activity android:name=".Rutina"/>
+        <activity android:name=".Calorias"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
