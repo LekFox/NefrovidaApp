@@ -104,7 +104,7 @@ class QuizQuestionsActivity4 : AppCompatActivity(), View.OnClickListener {
                                 setQuestion()
                             }
                             else -> {
-                                sb.append(incorrect).append(" respuestas incorrectas de 6 preguntas")
+                                sb.append(incorrect).append(" respuestas incorrectas de 5 preguntas")
                                 val finalMsgText = sb.toString()
 
                                 val toast = Toast.makeText(this, finalMsgText, Toast.LENGTH_SHORT)
